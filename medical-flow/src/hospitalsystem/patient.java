@@ -10,5 +10,11 @@ public class patient {
         this.appointmentdate = appointmentdate;
         this.medicalinformation = medicalinformation;
     }
+    public void updatemedicalinformation(String information){
+        medicalinformation = information;
+    }
+    public String getmedicalinformation(){
+        return medicalinformation;
+    }
 
 }
